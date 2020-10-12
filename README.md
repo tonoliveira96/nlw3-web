@@ -1,4 +1,6 @@
 <h1>NLW3 - Happy</h1>
+<p>Happy é uma aplicação desenvolvida durante a Next level Weak da Rocetseat, com objetivo de conectar pessoas com orfanados para serem visitados.
+Mostrando ao usuário os orfatos ou entidades que acolhem crianças próximo a sua localização, dando informações sobre horários de visitção entre outros</p>
 
 # Instalação
 1. Faça o clone deste repositório usando `git clone https://github.com/tonoliveira96/nlw3-web.git`
