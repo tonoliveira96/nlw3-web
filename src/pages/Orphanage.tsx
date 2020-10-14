@@ -49,30 +49,26 @@ export default function Orphanage() {
 
       <main>
         <div className="orphanage-details">
-          <img src={orphanage.images[activeImageIndex].url} alt="Lar das meninas" />
+          <img
+            src={orphanage.images[activeImageIndex].url}
+            alt="Lar das meninas"
+          />
 
           <div className="images">
-            {
-              orphanage.images.map((image, index)=>{
-                return(
-                  <button 
-                  key={image.id} 
-                  className={activeImageIndex === index ? "active": ""} 
+            {orphanage.images.map((image, index) => {
+              return (
+                <button
+                  key={image.id}
+                  className={activeImageIndex === index ? "active" : ""}
                   type="button"
-                  onClick={()=>{
-                    setActiveImageIndex(index)
+                  onClick={() => {
+                    setActiveImageIndex(index);
                   }}
-                  >
-                
-              <img
-                src={image.url}
-                alt={orphanage.name}
-              />
-            </button>
-            
-                )
-              })
-            }
+                >
+                  <img src={image.url} alt={orphanage.name} />
+                </button>
+              );
+            })}
           </div>
 
           <div className="orphanage-details-content">
@@ -101,7 +97,13 @@ export default function Orphanage() {
               </Map>
 
               <footer>
-                <a target="blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${orphanage.latitude},${orphanage.longitude}`}>Ver rotas no Google Maps</a>
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${orphanage.latitude},${orphanage.longitude}`}
+                >
+                  Ver rotas no Google Maps
+                </a>
               </footer>
             </div>
 
