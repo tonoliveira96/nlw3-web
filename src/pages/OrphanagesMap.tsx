@@ -62,7 +62,7 @@ function OrphanagesMap() {
         {orphanages.map((orphanage) => {
           return (
             <Marker
-              position={[orphanage.longitude, orphanage.latitude]}
+              position={[ orphanage.latitude, orphanage.longitude]}
               icon={mapIcon}
               key={orphanage.id}
             >
