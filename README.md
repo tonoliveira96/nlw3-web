@@ -10,6 +10,5 @@ Mostrando ao usuário os orfatos ou entidades que acolhem crianças próximo a s
 
 # Front-end do desafio
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tonoliveira96/nlw3-web/master/assets/happy-landing.png"/>
-  <img src="https://raw.githubusercontent.com/tonoliveira96/nlw3-web/master/assets/happy-dashboard.png"/>
+  <img src="https://raw.githubusercontent.com/tonoliveira96/nlw3-web/master/assets/happy-gif.gif"/>
 </div>
